@@ -17,6 +17,7 @@ body {
     font-family: Baskervville, serif;
     color: linen;
     background-color: rgb(20, 30, 40);
+    padding: 30px;
 }
 
 h1 {
@@ -225,6 +226,9 @@ hr {
 }
 
 @media only screen and (max-width: 720px) {
+    body {
+        padding: 20px;
+    }
     .image-wrapper {
         grid-template-columns: 1fr;
     }
@@ -237,6 +241,9 @@ hr {
 }
 
 @media only screen and (max-width: 550px) {
+    body {
+        padding: 15px;
+    }
     .hero-title {
         font-size: 6rem;
     }
@@ -255,6 +262,9 @@ hr {
 }
 
 @media only screen and (max-width: 450px) {
+    body {
+        padding: 10px;
+    }
     .hero-title {
         font-size: 4.5rem;
     }
